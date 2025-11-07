@@ -39,7 +39,7 @@ a {
 
 .container {
   width: 1200px;
-  /*outline: 2px solid tomato;*/
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -601,6 +601,10 @@ a {
   height: 100%;
   background-color: #0000001a;
 }
+.backdrop.is-hidden{
+  opacity: 0;
+  pointer-events: none;
+}
 .modal {
   position: absolute;
   top: 50%;
@@ -609,6 +613,7 @@ a {
   width: 528px;
   height: 581px;
   background-color: var(--white-color);
+  z-index: 99;
 }
 .modal-button {
   position: absolute;
@@ -616,8 +621,14 @@ a {
   right: 0;
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  border: 1px solid #0000001a;
+  border-radius: 50%; 
+   border: 1px solid #0000001a;
+ padding: 0;
+ cursor: pointer;
+ 
+
 }
 .close-button {
+
 }
+
