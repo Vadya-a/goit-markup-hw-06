@@ -74,6 +74,7 @@ a {
   position: absolute;
   background-color: #2f303acc;
   justify-content: center;
+  
 }
 
 .images .item {
@@ -613,7 +614,7 @@ a {
   width: 528px;
   height: 581px;
   background-color: var(--white-color);
-  z-index: 99;
+  
 }
 .modal-button {
   position: absolute;
@@ -625,10 +626,17 @@ a {
    border: 1px solid #0000001a;
  padding: 0;
  cursor: pointer;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  
 
 }
 .close-button {
-
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
 }
 
